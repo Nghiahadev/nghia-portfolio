@@ -491,7 +491,7 @@ const projects = [
   [
     "Old Portfolio",
     "My original personal portfolio website, built from the ground up to present my early projects, skills, and contact information through a responsive custom interface.",
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80",
+    "/assets/projects/old-portfolio.png",
     ["HTML", "CSS", "JavaScript", "jQuery", "Google Apps Script"],
     "Full Stack",
     [],
