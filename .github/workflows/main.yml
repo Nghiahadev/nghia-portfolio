@@ -1,0 +1,41 @@
+name: Deploy Portfolio to GoDaddy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js website
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GODADDY_SSH_KEY }}" > ~/.ssh/godaddy_key
+          chmod 600 ~/.ssh/godaddy_key
+          ssh-keyscan -p "${{ secrets.GODADDY_PORT }}" -H "${{ secrets.GODADDY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy to GoDaddy
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/godaddy_key -p ${{ secrets.GODADDY_PORT }}" \
+            out/ \
+            "${{ secrets.GODADDY_USERNAME }}@${{ secrets.GODADDY_HOST }}:/home/${{ secrets.GODADDY_USERNAME }}/public_html/nghiaha.com/"
