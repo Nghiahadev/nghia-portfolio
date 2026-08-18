@@ -416,6 +416,7 @@ const projects = [
       { name: "Sam", url: "https://www.linkedin.com/in/siwanta/" },
     ],
     "http://app.elysiummall.com/",
+    "In Progress",
   ],
   [
     "The Phelan Focus",
@@ -425,6 +426,7 @@ const projects = [
     "Full Stack",
     [],
     "https://thephelanfocus.com/",
+    "June 2025",
   ],
   [
     "PocketContent",
@@ -437,6 +439,7 @@ const projects = [
       { name: "Dylan", image: "/assets/projects/Dylan.png", url: "https://www.linkedin.com/in/dylanmoo/" },
     ],
     "https://pocketcontent.io/",
+    "August 2025",
   ],
   [
     "Projxon",
@@ -449,6 +452,7 @@ const projects = [
       { name: "Simeon", image: "/assets/projects/Simeon.png", url: "https://www.linkedin.com/in/simeon-davenport/" },
     ],
     "https://projxon.com/",
+    "May 2025",
   ],
   [
     "Zephyr Aero Leather",
@@ -463,6 +467,7 @@ const projects = [
       { name: "Carmen", image: "/assets/projects/Carmen.png", url: "https://www.linkedin.com/in/carmen-e-vega/" },
     ],
     "http://zephyraeroleather.com/",
+    "May 2025",
   ],
   [
     "Toan Thanh Wedding",
@@ -472,6 +477,7 @@ const projects = [
     "Full Stack",
     [],
     "https://toanthanhwedding.com/",
+    "February 2024",
   ],
   [
     "Surviving Breast Cancer App",
@@ -483,6 +489,16 @@ const projects = [
     "https://play.google.com/store/apps/details?id=org.survivingbreastcancer&hl=en_AU",
   ],
   [
+    "Old Portfolio",
+    "My original personal portfolio website, built from the ground up to present my early projects, skills, and contact information through a responsive custom interface.",
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80",
+    ["HTML", "CSS", "JavaScript", "jQuery", "Google Apps Script"],
+    "Full Stack",
+    [],
+    "https://nghiaha95.com/",
+    "June 2023",
+  ],
+  [
     "NextShine Car Care",
     "Custom Shopify storefront for car-care products with responsive Liquid sections and JavaScript enhancements that simplify product discovery. Demo password: 1.",
     "/assets/projects/nextshine.png",
@@ -490,6 +506,7 @@ const projects = [
     "Shopify",
     [],
     "https://car-soap-h6ihyjdn.myshopify.com/",
+    "August 2026",
   ],
   [
     "Viora Creamery",
@@ -501,6 +518,7 @@ const projects = [
       { name: "Dat", image: "/assets/projects/Dat.png", url: "https://www.linkedin.com/in/dat-nguyen-867250220/" },
     ],
     "https://vioracreamery.com/",
+    "August 2026",
   ],
   [
     "Phatsat",
@@ -510,6 +528,7 @@ const projects = [
     "Shopify",
     [],
     "https://phatsat.com/",
+    "February 2024",
   ],
   [
     "Ambit",
@@ -519,6 +538,7 @@ const projects = [
     "Shopify",
     [],
     "https://ambit.one/",
+    "February 2024",
   ],
   [
     "Avid Learner — V1",
@@ -528,6 +548,7 @@ const projects = [
     "WordPress",
     [],
     "http://avidlearner-v1.infinityfreeapp.com/",
+    "February 2026",
   ],
   [
     "Avid Learner — V2",
@@ -537,6 +558,7 @@ const projects = [
     "WordPress",
     [],
     "http://avidlearner-v2.infinityfreeapp.com/",
+    "March 2026",
   ],
   [
     "Vietnamese Temple",
@@ -546,6 +568,7 @@ const projects = [
     "WordPress",
     [],
     "https://chuabaohai.us/",
+    "March 2024",
   ],
   [
     "Lash & Facial by Annie",
@@ -555,6 +578,7 @@ const projects = [
     "WordPress",
     [],
     "https://lash-facialbyannie.com/",
+    "March 2024",
   ],
   [
     "Analytics Dashboard",
