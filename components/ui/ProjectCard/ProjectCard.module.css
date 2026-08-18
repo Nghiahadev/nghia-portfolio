@@ -1,0 +1,35 @@
+.card {
+  overflow: hidden;
+  border: 1px solid rgb(23 35 26 / 12%);
+  border-radius: 1.5rem;
+  background: white;
+  box-shadow: 0 16px 45px rgb(23 35 26 / 8%);
+}
+.image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+.content {
+  padding: 1.5rem;
+}
+.content span {
+  color: #2f7d32;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.content h2 {
+  margin-top: 0.5rem;
+  font-size: 1.35rem;
+}
+.content p {
+  margin: 0.75rem 0 1.25rem;
+  color: #667068;
+  line-height: 1.6;
+}
+.content a {
+  color: #2f7d32;
+  font-weight: 800;
+}

@@ -1,0 +1,16 @@
+.card {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  background: #17231a;
+  color: white;
+}
+.card span {
+  color: #8bd36f;
+  font-weight: 800;
+}
+.card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+.card {
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: white;
+}
+.card strong {
+  display: block;
+  color: #2f7d32;
+  font-size: 2rem;
+}
+.card span {
+  color: #667068;
+  font-size: 0.85rem;
+}
