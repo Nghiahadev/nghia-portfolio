@@ -495,7 +495,7 @@ const projects = [
     ["HTML", "CSS", "JavaScript", "jQuery", "Google Apps Script"],
     "Full Stack",
     [],
-    "https://nghiaha95.com/",
+    "https://nghiahadev.github.io/Old-Portfolio/",
     "June 2023",
   ],
   [
