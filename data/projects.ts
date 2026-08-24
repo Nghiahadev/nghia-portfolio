@@ -6,8 +6,7 @@ export const projects: Project[] = [
     title: "Elysium Mall",
     description:
       "Cross-platform virtual mall experience combining a React Native interface, PostgreSQL-backed data, and an immersive Unity environment.",
-    image:
-      "/assets/projects/Elysium.png",
+    image: "/assets/projects/Elysium.png",
     technologies: ["React Native", "PostgreSQL", "Unity"],
     category: "Full Stack",
     created: "In Progress",
