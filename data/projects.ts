@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description:
       "Cross-platform virtual mall experience combining a React Native interface, PostgreSQL-backed data, and an immersive Unity environment.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80",
+      "/assets/projects/Elysium.png",
     technologies: ["React Native", "PostgreSQL", "Unity"],
     category: "Full Stack",
     created: "In Progress",
