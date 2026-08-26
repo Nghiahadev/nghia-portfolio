@@ -3,8 +3,55 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nghia Ha — Web Developer",
-  description: "Portfolio of Nghia Ha, a web developer building modern applications, eCommerce experiences, and data solutions.",
+  metadataBase: new URL("https://nghiaha.com"),
+
+  title: {
+    default: "Nghia Ha | Web Developer & eCommerce Developer",
+    template: "%s | Nghia Ha",
+  },
+
+  description:
+    "Portfolio of Nghia Ha, a Web Developer and eCommerce Developer specializing in Next.js, React, Shopify, WordPress, full-stack development, and data solutions.",
+
+  keywords: [
+    "Nghia Ha",
+    "Nghia Ha Web Developer",
+    "Web Developer",
+    "eCommerce Developer",
+    "Shopify Developer",
+    "WordPress Developer",
+    "Next.js Developer",
+    "React Developer",
+    "Full Stack Developer",
+    "Data Analyst",
+    "E-Commerce",
+    "E-Commerce Specialist",
+  ],
+
+  authors: [{ name: "Nghia Ha", url: "https://nghiaha.com" }],
+  creator: "Nghia Ha",
+
+  alternates: {
+    canonical: "https://nghiaha.com",
+  },
+
+  openGraph: {
+    title: "Nghia Ha | Web Developer & eCommerce Developer",
+    description:
+      "Web Developer and eCommerce Developer specializing in Next.js, React, Shopify, WordPress, full-stack development, and data solutions.",
+    url: "https://nghiaha.com",
+    siteName: "Nghia Ha Portfolio",
+    type: "website",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
