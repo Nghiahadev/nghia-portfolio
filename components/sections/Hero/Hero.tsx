@@ -18,16 +18,16 @@ export function Hero() {
             <span
               className="role-animate"
               id="roleAnimate"
-              aria-label="Web Developer, UI/UX Designer, E-commerce Specialist, and Data Analyst"
+              aria-label="Web Developer, E-commerce Specialist, and Data Analyst, UI/UX Designer"
             >
               <span className="role-word active">
                 {"Web\n                Developer"}
               </span>
-              <span className="role-word">{"UI/UX Designer"}</span>
               <span className="role-word">{"E-commerce Specialist"}</span>
               <span className="role-word">
                 {"Data\n                Analyst"}
               </span>
+              <span className="role-word">{"UI/UX Designer"}</span>
             </span>
           </h1>
           {"\n          "}
@@ -101,6 +101,7 @@ export function Hero() {
             {" role: "}
             <em>{"'Web Developer'"}</em>
             {","}
+            <em>{"'E-commerce'"}</em>
             <br />
             {" focus: ["}
             <em>{"'React'"}</em>
